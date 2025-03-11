@@ -1,0 +1,14 @@
+{
+  "rewrites": [
+    {
+      "sources": "/(.*)",
+      "destination": "/"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/sitemap.xml",
+      "dest": "/api/sitemap"
+    }
+  ]
+}
